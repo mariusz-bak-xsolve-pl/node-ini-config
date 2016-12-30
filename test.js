@@ -3,7 +3,7 @@
  */
 
 var assert = require('assert'),
-    config = require('./index');
+    config = require('./index')(process.cwd());
 
 describe('package', () => {
     
